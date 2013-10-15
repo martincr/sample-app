@@ -52,6 +52,5 @@ rails generate rspec:install
 git init
 git add .
 git commit -m "Initial commit"
-
-
+git mv README.rdoc README.md
 git commit -a -m "Improve the README"
