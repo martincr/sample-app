@@ -58,3 +58,5 @@ git commit -a -m "Improve the README"
 heroku create --stack cedar
 
 http://fierce-fortress-2789.herokuapp.com/ | git@heroku.com:fierce-fortress-2789.git
+
+rails generate controller StaticPages home help --no-test-framework
