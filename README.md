@@ -1,4 +1,4 @@
-== README
+# Ruby on Rails Tutorial: sample application
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
@@ -51,3 +51,7 @@ Details here: http://www.elabs.se/blog/60-introducing-capybara-2-1
 rails generate rspec:install
 git init
 git add .
+git commit -m "Initial commit"
+
+
+git commit -a -m "Improve the README"
