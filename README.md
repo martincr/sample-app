@@ -60,3 +60,4 @@ heroku create --stack cedar
 http://fierce-fortress-2789.herokuapp.com/ | git@heroku.com:fierce-fortress-2789.git
 
 rails generate controller StaticPages home help --no-test-framework
+rails generate integration_test static_pages
