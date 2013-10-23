@@ -27,11 +27,11 @@ Things you may want to cover:
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
 
-rails new sample_app --skip-test-unit
-bundle install --without production
-Post-install message from capybara:
-IMPORTANT! Some of the defaults have changed in Capybara 2.1. If you're experiencing failures,
-please revert to the old behaviour by setting:
+  rails new sample_app --skip-test-unit
+  bundle install --without production
+  Post-install message from capybara:
+  IMPORTANT! Some of the defaults have changed in Capybara 2.1. If you're experiencing failures,
+  please revert to the old behaviour by setting:
 
     Capybara.configure do |config|
       config.match = :one
